@@ -1,0 +1,50 @@
+body{
+  font-style: 'Calibri','Helvetica','Times';
+}
+
+a{
+	margin: 0 auto;
+  text-decoration:none;
+  font-size:20px;
+	display:inline-block;
+	color:black;
+	border:1px solid grey;
+	padding:30px;
+	width:300px;
+}
+.random{
+	border: 1px solid lightgray;
+}
+.random a{
+	width:100px;
+	padding:0;
+	border:0;
+}
+
+h1{
+    font-family: Calibri,Helvetica,Times;
+		font-size:40px;
+    padding:20px;
+    color:darkgray;
+		background-color:black;
+}
+.result{
+	padding:20px;
+	text-align:center;
+
+}
+
+button{
+	font-size:20px;
+	border:none;
+	padding:10px;
+	border-radius:5%;
+	background-color:lightblue;
+	color:white;
+}
+button:hover{
+	background-color:lightgray;
+}
+button:focus{
+	outline:none;
+}
