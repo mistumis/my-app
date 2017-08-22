@@ -21,8 +21,11 @@ a{
   margin-right:10px;
   width:15%;
   padding:0;
+  height:30%;
+	
 }
 .b,.random{
+height:30%;
   margin:0;
   height:85px;
   vertical-align:text-top;
@@ -53,6 +56,7 @@ h1{
   margin: 20px 0 10px 0;
 }
 .input{
+	 height:30%;
   vertical-align:text-top;
   font-size:50px;
   height:85px;
