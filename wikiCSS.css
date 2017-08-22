@@ -6,34 +6,32 @@ body{
 }
 
 a{
-	min-height:20%;
   text-decoration:none;
   font-size:30px;
 	display:inline-block;
 	color:black;
 	border:1px solid grey;
-  padding-left:30px;
-  margin:0;
-  margin-bottom:10px;
+  margin:0 0 10px 10px;
 }
 .b{
   min-width:70px;
-  margin-right:10px;
-  width:15%;
+  float:right;
+  margin:0;
+  width:10%;
   padding:0;
 }
 .b,.random{
-  min-height:20%;
+ 
   margin:0;
   height:85px;
   vertical-align:text-top;
-	border: 1px solid lightgray;
+
   font-size:30px;
   border-radius:1% !important;
   margin-top:10px;
 }
 .random{
-
+	border: 1px solid lightgray;
   width:70%;
   min-width:340px;
 }
@@ -47,27 +45,28 @@ h1{
     padding:20px;
     color:darkgray;
 		background-color:black;
+    margin:0;
 }
 .result a{
   padding:10px 0 10px 0;
 	text-align:center;
   width:70%;
   margin: 20px 0 10px 0;
+    vertical-align:center;
 }
 .input{
-  min-height:20%;
   vertical-align:text-top;
   font-size:50px;
   height:85px;
-  width:50%;
-  margin:10px 10px 10px 0;
+  width:90%;
+  margin:10px 0 10px 0;
   min-width:200px;
 }
 .greyDiv{
-  background-color:lightgray;
+  background-color:black;
+  border:10px solid black;
 }
 button{
-  
   vertical-align:text-top;
 	font-size:40px;
   padding:20px;
