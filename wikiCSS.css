@@ -1,23 +1,41 @@
 body{
   font-style: 'Calibri','Helvetica','Times';
+  margin:0 auto;
+  display:inline-block;
+  width:100%;
 }
 
 a{
-	margin: 0 auto;
+	
   text-decoration:none;
-  font-size:20px;
+  font-size:30px;
 	display:inline-block;
 	color:black;
 	border:1px solid grey;
-	padding:30px;
-	width:300px;
+  padding-left:30px;
+  margin:0;
+  margin-bottom:10px;
+}
+.b{
+  min-width:70px;
+  margin-right:10px;
+  width:15%;
+  padding:0;
+}
+.b,.random{
+  margin:0;
+  height:85px;
+  vertical-align:text-top;
+	border: 1px solid lightgray;
+  font-size:30px;
+  border-radius:1% !important;
+  margin-top:10px;
 }
 .random{
-	border: 1px solid lightgray;
+  width:70%;
+  min-width:340px;
 }
 .random a{
-	width:100px;
-	padding:0;
 	border:0;
 }
 
@@ -28,22 +46,34 @@ h1{
     color:darkgray;
 		background-color:black;
 }
-.result{
-	padding:20px;
+.result a{
+  padding:10px 0 10px 0;
 	text-align:center;
-
+  width:70%;
+  margin: 20px 0 10px 0;
 }
-
+.input{
+  vertical-align:text-top;
+  font-size:50px;
+  height:85px;
+  width:50%;
+  margin:10px 10px 10px 0;
+  min-width:200px;
+}
+.greyDiv{
+  background-color:lightgray;
+}
 button{
-	font-size:20px;
+  vertical-align:text-top;
+	font-size:40px;
+  padding:20px;
 	border:none;
-	padding:10px;
 	border-radius:5%;
 	background-color:lightblue;
 	color:white;
 }
 button:hover{
-	background-color:lightgray;
+  background-color:#F5F5F5;
 }
 button:focus{
 	outline:none;
