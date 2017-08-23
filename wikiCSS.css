@@ -1,11 +1,13 @@
 body{
-  font-style: 'Calibri','Helvetica','Times';
+  font-family: Calibri,Helvetica,Times;
+  background-color: #F8F8F8;
   margin:0 auto;
   display:inline-block;
   width:100%;
 }
 
 a{
+  font-family: Calibri,Helvetica,Times;
   text-decoration:none;
   font-size:30px;
 	display:inline-block;
@@ -14,26 +16,26 @@ a{
   margin:0 0 10px 10px;
 }
 .b{
-  min-width:70px;
+
   float:right;
   margin:0;
-  width:10%;
+  width:20%;
   padding:0;
 }
 .b,.random{
- 
   margin:0;
   height:85px;
   vertical-align:text-top;
-
   font-size:30px;
   border-radius:1% !important;
   margin-top:10px;
 }
 .random{
-	border: 1px solid lightgray;
-  width:70%;
-  min-width:340px;
+	border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  width:100%;
+  min-width:200px;
+  margin: 10% 0 0 0;
 }
 .random a{
 	border:0;
@@ -48,23 +50,27 @@ h1{
     margin:0;
 }
 .result a{
-  padding:10px 0 10px 0;
+  background-color:white;
+  font-family: Calibri,Helvetica,Times;
+  font-size:30px;
+  padding:5% 0 5% 0;
 	text-align:center;
   width:70%;
   margin: 20px 0 10px 0;
-    vertical-align:center;
+  vertical-align:center;
 }
 .input{
+  float:left;
   vertical-align:text-top;
   font-size:50px;
   height:85px;
-  width:90%;
+  width:80%;
   margin:10px 0 10px 0;
-  min-width:200px;
+
 }
 .greyDiv{
   background-color:black;
-  border:10px solid black;
+  border:20px solid black;
 }
 button{
   vertical-align:text-top;
