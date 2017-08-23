@@ -10,6 +10,7 @@
 					$(document).ready(function(){
 				
 						$('.b').click( function (){
+              $(".result").empty();
 						  var p = '*'+$("#text").val()+'*';
 							$.ajax({
 								 url: 'https://en.wikipedia.org/w/api.php',
