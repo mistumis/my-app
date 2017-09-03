@@ -31,6 +31,7 @@ a{
   margin-top:10px;
 }
 .random{
+	cursor: pointer;
 	border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   width:100%;
