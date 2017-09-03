@@ -22,7 +22,7 @@ a{
   width:20%;
   padding:0;
 }
-.b,.random{
+.b{
   margin:0;
   height:85px;
   vertical-align:text-top;
@@ -34,8 +34,13 @@ a{
   border-bottom: 1px solid lightgray;
   width:100%;
   font-size:30px;
-  min-width:200px;
   margin: 10% 0 0 0;
+  vertical-align:text-top;
+	font-size:40px;
+  padding:20px 0 20px 0;
+	border:none;
+	background-color:lightblue;
+	color:white;
 }
 .random a{
 	border:0;
