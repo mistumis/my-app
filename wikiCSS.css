@@ -16,7 +16,7 @@ a{
   margin:0 0 10px 10px;
 }
 .b{
-
+  font-size:30px;
   float:right;
   margin:0;
   width:20%;
@@ -26,20 +26,22 @@ a{
   margin:0;
   height:85px;
   vertical-align:text-top;
-  font-size:30px;
   border-radius:1% !important;
   margin-top:10px;
 }
 .random{
-	cursor: pointer;
 	border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   width:100%;
+  font-size:30px;
   min-width:200px;
   margin: 10% 0 0 0;
 }
 .random a{
 	border:0;
+  cursor: pointer;
+  width:100%;
+  height:100%;
 }
 
 h1{
