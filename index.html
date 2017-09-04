@@ -8,7 +8,9 @@
 				<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 				<script>
 					$(document).ready(function(){
-				
+						$(document).keypress(function(e){
+            	if(e.which == 13) { $('.b').click();}
+            });
 						$('.b').click( function (){
               $(".result").empty();
 						  var p = '*'+$("#text").val()+'*';
